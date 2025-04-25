@@ -295,9 +295,6 @@ export default function Home() {
                       Next.js
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Vue.js
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       TypeScript
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
@@ -310,13 +307,16 @@ export default function Home() {
                       CSS3/SCSS
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Bootstrap
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Tailwind CSS
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Material UI
+                      Mantine UI
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Redux
+                      Radix
                     </Badge>
                   </div>
                 </div>
@@ -325,25 +325,25 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Backend Development</h3>
                   <div className="flex flex-wrap gap-2">
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Laravel
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Node.js
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Express
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Python
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Django
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       RESTful APIs
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      GraphQL
+                      JWT Token
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Firebase
+                      Bcrypt
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Eloquent
                     </Badge>
                   </div>
                 </div>
@@ -361,10 +361,7 @@ export default function Home() {
                       PostgreSQL
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Redis
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Firestore
+                      MariaDB
                     </Badge>
                   </div>
                 </div>
@@ -377,10 +374,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">DevOps & Tools</h3>
                   <div className="flex flex-wrap gap-2">
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Git
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      GitHub Actions
+                      GitHub
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Docker
@@ -392,10 +386,16 @@ export default function Home() {
                       Vercel
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Netlify
+                      Render
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       CI/CD
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Postman
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Power BI
                     </Badge>
                   </div>
                 </div>
@@ -407,13 +407,7 @@ export default function Home() {
                       Figma
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Adobe XD
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Photoshop
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Illustrator
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       UI/UX Design
@@ -428,22 +422,22 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">Other Skills</h3>
                   <div className="flex flex-wrap gap-2">
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Problem Solving
+                      Critical Thinking
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Music Production
-                    </Badge>
-                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Photography
+                      Collaboration and Teamwork
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
                       Travel Planning
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Language Learning
+                      Time Management
                     </Badge>
                     <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
-                      Data Analysis
+                      Adaptability and Flexibility
+                    </Badge>
+                    <Badge className="bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 border border-purple-200 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors">
+                      Leadership
                     </Badge>
                   </div>
                 </div>
@@ -794,7 +788,7 @@ export default function Home() {
                         type="text"
                         id="name"
                         className="w-full px-4 py-3 bg-white dark:bg-zinc-800 border border-zinc-300 dark:border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                        placeholder="John Doe"
+                        placeholder="Your name here"
                       />
                     </div>
                     <div>
