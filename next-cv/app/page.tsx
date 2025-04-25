@@ -10,7 +10,8 @@ import CountUp from "@/components/count-up"
 import RevealCard from "@/components/reveal-card"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, Twitter, MapPin, Phone, Calendar, Briefcase, GraduationCap } from "lucide-react"
+import { Github, Mail, MapPin, Phone, Calendar, Briefcase, GraduationCap } from "lucide-react"
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0)
@@ -41,7 +42,7 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">John.Dev</h1>
+          <h1 className="text-2xl font-bold">Tinn.Dev</h1>
           <div className="flex items-center space-x-4">
             <nav className="hidden md:flex space-x-8">
               <a
@@ -107,9 +108,9 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex flex-col justify-center items-center relative pt-16">
         <div
-          className="absolute inset-0 z-0 opacity-5 dark:opacity-20"
+          className="absolute inset-0 z-0 opacity-20 dark:opacity-20"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/BackGroundPic.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -117,14 +118,14 @@ export default function Home() {
         <div className="container mx-auto px-4 z-10 text-center">
           <div className="mb-4 inline-block">
             <Image
-              src="/placeholder.svg?height=200&width=200"
-              alt="Profile"
+              src="/PicProfile.jpg"
+              alt="My Profile picture"
               width={200}
               height={200}
               className="rounded-full border-4 border-purple-500"
             />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">John Doe</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">Natatch Potong</h1>
           <div className="h-16 flex justify-center items-center">
             <span className="text-2xl md:text-4xl mr-2">I am a </span>
             <TypeAnimation
@@ -149,32 +150,32 @@ export default function Home() {
           </div>
           <div className="mt-16 flex justify-center space-x-8">
             <a
-              href="#"
+              href="https://github.com/TinnTinnn"
               className="text-zinc-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-white transition-colors"
             >
               <Github size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/cronostinn.tinn"
               className="text-zinc-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-white transition-colors"
             >
-              <Linkedin size={24} />
+              <FaFacebook size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/grittinpotong/"
               className="text-zinc-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-white transition-colors"
             >
-              <Twitter size={24} />
+              <FaInstagram  size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/@CroNosArm"
               className="text-zinc-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-white transition-colors"
             >
-              <Mail size={24} />
+              <FaYoutube size={24} />
             </a>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
           <a
             href="#about"
             className="text-zinc-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-white transition-colors"
@@ -200,37 +201,37 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <RevealCard>
               <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-                <Image src="/placeholder.svg?height=800&width=600" alt="About Me" fill className="object-cover" />
+                <Image src="/AboutMe.jpg" alt="About Me" fill className="object-cover" />
               </div>
             </RevealCard>
             <RevealCard>
               <div>
                 <h3 className="text-2xl font-bold mb-4">Who am I?</h3>
                 <p className="text-zinc-700 dark:text-gray-300 mb-6">
-                  I am a passionate developer with over 5 years of experience in web development. I specialize in
-                  creating responsive, user-friendly websites and applications using modern technologies like React,
+                  I am a passionate developer with over 2 years of experience in web development. I specialize in
+                  creating responsive, user-friendly websites and applications using modern technologies like Laravel, React,
                   Next.js, and Node.js.
                 </p>
                 <p className="text-zinc-700 dark:text-gray-300 mb-6">
-                  When I'm not coding, I enjoy making music, singing, and traveling to explore new cultures and gain
+                  When I'm not coding, I enjoy playing music, singing, and traveling to explore new cultures and gain
                   inspiration for my creative work.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-zinc-700 dark:text-gray-300">
                   <div className="flex items-center">
                     <Calendar className="mr-2 text-purple-600 dark:text-purple-400" size={20} />
-                    <span>Born: January 1, 1990</span>
+                    <span>Born: February 1, 1989</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="mr-2 text-purple-600 dark:text-purple-400" size={20} />
-                    <span>Location: Bangkok, Thailand</span>
+                    <span>Location: Bangken, Bangkok</span>
                   </div>
                   <div className="flex items-center">
                     <Mail className="mr-2 text-purple-600 dark:text-purple-400" size={20} />
-                    <span>Email: john@example.com</span>
+                    <span>Email: cronusarm@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="mr-2 text-purple-600 dark:text-purple-400" size={20} />
-                    <span>Phone: +66 123 456 789</span>
+                    <span>Phone: +66 860 044 473</span>
                   </div>
                 </div>
               </div>
@@ -249,7 +250,7 @@ export default function Home() {
             <RevealCard>
               <div className="text-center p-6 bg-zinc-50 dark:bg-zinc-900 rounded-lg shadow-md dark:shadow-none">
                 <h3 className="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">
-                  {statsInView ? <CountUp end={5} /> : "0"}+
+                  {statsInView ? <CountUp end={2} /> : "0"}+
                 </h3>
                 <p className="text-zinc-700 dark:text-gray-300">Years Experience</p>
               </div>
@@ -257,7 +258,7 @@ export default function Home() {
             <RevealCard>
               <div className="text-center p-6 bg-zinc-50 dark:bg-zinc-900 rounded-lg shadow-md dark:shadow-none">
                 <h3 className="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">
-                  {statsInView ? <CountUp end={50} /> : "0"}+
+                  {statsInView ? <CountUp end={9} /> : "0"}+
                 </h3>
                 <p className="text-zinc-700 dark:text-gray-300">Projects Completed</p>
               </div>
@@ -265,17 +266,17 @@ export default function Home() {
             <RevealCard>
               <div className="text-center p-6 bg-zinc-50 dark:bg-zinc-900 rounded-lg shadow-md dark:shadow-none">
                 <h3 className="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">
-                  {statsInView ? <CountUp end={20} /> : "0"}+
+                  {statsInView ? <CountUp end={275} /> : "0"}+
                 </h3>
-                <p className="text-zinc-700 dark:text-gray-300">Happy Clients</p>
+                <p className="text-zinc-700 dark:text-gray-300">GitHub Contributions</p>
               </div>
             </RevealCard>
             <RevealCard>
               <div className="text-center p-6 bg-zinc-50 dark:bg-zinc-900 rounded-lg shadow-md dark:shadow-none">
                 <h3 className="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">
-                  {statsInView ? <CountUp end={205} /> : "0"}
+                  {statsInView ? <CountUp end={686} /> : "0"} Days
                 </h3>
-                <p className="text-zinc-700 dark:text-gray-300">GitHub Contributions</p>
+                <p className="text-zinc-700 dark:text-gray-300">Self-Taught Journey</p>
               </div>
             </RevealCard>
           </div>
@@ -752,28 +753,28 @@ export default function Home() {
                   <h4 className="font-bold mb-4">Follow Me</h4>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://github.com/TinnTinnn"
                       className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white transition-colors"
                     >
                       <Github size={20} />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.facebook.com/cronostinn.tinn"
                       className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white transition-colors"
                     >
-                      <Linkedin size={20} />
+                      <FaFacebook size={20} />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/grittinpotong/"
                       className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white transition-colors"
                     >
-                      <Twitter size={20} />
+                      <FaInstagram  size={20} />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.youtube.com/@CroNosArm"
                       className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-600 dark:text-gray-400 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white transition-colors"
                     >
-                      <Mail size={20} />
+                      <FaYoutube size={20} />
                     </a>
                   </div>
                 </div>
@@ -847,7 +848,7 @@ export default function Home() {
       <footer className="py-8 bg-white dark:bg-black border-t border-zinc-200 dark:border-zinc-800">
         <div className="container mx-auto px-4 text-center">
           <p className="text-zinc-600 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Natatch Potong. All rights reserved.
           </p>
           <p className="text-zinc-500 dark:text-gray-500 mt-2">Designed and built with Next.js and Tailwind CSS</p>
         </div>
