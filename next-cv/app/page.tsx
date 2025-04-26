@@ -464,12 +464,12 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2020 - Present</div>
-                    <h4 className="text-xl font-bold mb-2">Senior Frontend Developer</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Tech Solutions Co., Ltd.</p>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2009 - Present</div>
+                    <h4 className="text-xl font-bold mb-2">Singer & Musician</h4>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Bar & Restaurant</p>
                     <p className="text-zinc-700 dark:text-gray-300">
-                      Lead the frontend development team in creating responsive web applications using React, Next.js,
-                      and Tailwind CSS. Implemented CI/CD pipelines and improved performance by 40%.
+                      Performed regularly at various venues, engaging audiences through vocal and emotional expression.
+                      Delivering positive experiences through music.
                     </p>
                   </div>
                 </RevealCard>
@@ -477,9 +477,9 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2018 - 2020</div>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2023 - current</div>
                     <h4 className="text-xl font-bold mb-2">Web Developer</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Digital Agency Co., Ltd.</p>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Self taught</p>
                     <p className="text-zinc-700 dark:text-gray-300">
                       Developed and maintained client websites using JavaScript, HTML, and CSS. Collaborated with
                       designers to implement responsive designs and interactive features.
@@ -490,12 +490,12 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2016 - 2018</div>
-                    <h4 className="text-xl font-bold mb-2">Junior Developer</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Startup Inc.</p>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2021 - 2023</div>
+                    <h4 className="text-xl font-bold mb-2">Sale</h4>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Hooth</p>
                     <p className="text-zinc-700 dark:text-gray-300">
-                      Assisted in developing web applications and implementing new features. Learned modern web
-                      development practices and collaborated with senior developers.
+                      Presented engaging product information to customers, asked the right questions to understand thier needs and
+                      helped guide them to the best solution.
                     </p>
                   </div>
                 </RevealCard>
@@ -722,7 +722,7 @@ export default function Home() {
                     <MapPin className="mr-4 text-purple-600 dark:text-purple-400 mt-1" size={20} />
                     <div>
                       <h4 className="font-bold">Location</h4>
-                      <p className="text-zinc-700 dark:text-gray-300">Bangkok, Thailand</p>
+                      <p className="text-zinc-700 dark:text-gray-300">Bangken, Bangkok</p>
                     </div>
                   </div>
 
@@ -730,7 +730,7 @@ export default function Home() {
                     <Mail className="mr-4 text-purple-600 dark:text-purple-400 mt-1" size={20} />
                     <div>
                       <h4 className="font-bold">Email</h4>
-                      <p className="text-zinc-700 dark:text-gray-300">john@example.com</p>
+                      <p className="text-zinc-700 dark:text-gray-300">cronusarm@gmail.com</p>
                     </div>
                   </div>
 
@@ -738,7 +738,7 @@ export default function Home() {
                     <Phone className="mr-4 text-purple-600 dark:text-purple-400 mt-1" size={20} />
                     <div>
                       <h4 className="font-bold">Phone</h4>
-                      <p className="text-zinc-700 dark:text-gray-300">+66 123 456 789</p>
+                      <p className="text-zinc-700 dark:text-gray-300">+66 860 044 473</p>
                     </div>
                   </div>
                 </div>
