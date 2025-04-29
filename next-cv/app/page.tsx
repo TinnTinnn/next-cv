@@ -513,12 +513,13 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2014 - 2016</div>
-                    <h4 className="text-xl font-bold mb-2">Master's in Computer Science</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">University of Technology</p>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2008 - 2010</div>
+                    <h4 className="text-xl font-bold mb-2">Diploma Program Development</h4>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Nakorn Si Thammarat VC</p>
                     <p className="text-zinc-700 dark:text-gray-300">
-                      Specialized in web technologies and software engineering. Graduated with honors and completed a
-                      thesis on optimizing web application performance.
+                      Specialized in software development fundamentals and web technologies.
+                      Completed a Diploma in Program Development (equivalent to an associate degree) with a
+                      strong foundation in programming, database management, and application development.
                     </p>
                   </div>
                 </RevealCard>
@@ -526,12 +527,12 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2010 - 2014</div>
-                    <h4 className="text-xl font-bold mb-2">Bachelor's in Computer Engineering</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">National University</p>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2012 - 2016</div>
+                    <h4 className="text-xl font-bold mb-2">Bachelor's in Western Music</h4>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Chandrakasem Rajabhat University</p>
                     <p className="text-zinc-700 dark:text-gray-300">
-                      Studied programming fundamentals, data structures, algorithms, and web development. Participated
-                      in coding competitions and hackathons.
+                      Specialized in Western music with a major in vocal performance, developing strong
+                      skills in live performances and musical interpretation.
                     </p>
                   </div>
                 </RevealCard>
@@ -539,12 +540,12 @@ export default function Home() {
                 <RevealCard>
                   <div className="relative pl-8 border-l-2 border-purple-500">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-                    <div className="mb-1 text-purple-600 dark:text-purple-400">2018 - 2019</div>
-                    <h4 className="text-xl font-bold mb-2">Certification in UX Design</h4>
-                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Design Institute</p>
+                    <div className="mb-1 text-purple-600 dark:text-purple-400">2023 - current</div>
+                    <h4 className="text-xl font-bold mb-2">Self-Taught</h4>
+                    <p className="text-zinc-500 dark:text-gray-400 mb-2">Independent Learning</p>
                     <p className="text-zinc-700 dark:text-gray-300">
-                      Learned user experience principles, interface design, and usability testing. Completed projects
-                      focusing on creating intuitive and accessible interfaces.
+                      Focused on developing programming skills, web development, and backend technologies.
+                      Completed various personal projects to strengthen problem-solving, system design, and full-stack development abilities.
                     </p>
                   </div>
                 </RevealCard>
@@ -563,27 +564,30 @@ export default function Home() {
             <RevealCard>
               <div className="bg-zinc-50 dark:bg-zinc-900 rounded-lg overflow-hidden shadow-md dark:shadow-none">
                 <div className="relative h-48">
-                  <Image src="/placeholder.svg?height=400&width=600" alt="Project 1" fill className="object-cover" />
+                  <Image src="/member-management.png" alt="Project 1" fill className="object-cover" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">E-commerce Platform</h3>
+                  <h3 className="text-xl font-bold mb-2">Member Management</h3>
                   <p className="text-zinc-700 dark:text-gray-300 mb-4">
-                    A full-featured online store built with Next.js, featuring product listings, cart functionality, and
-                    payment processing.
+                    A Laravel and React-based web platform that allows users to authenticate and perform full CRUD operations
+                    on their personal member records with an emphasis on security and usability.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      Next.js
+                      Laravel
                     </span>
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      React
+                      React+Vite
                     </span>
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      Tailwind
+                      Mantine
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      PostgreSQL
                     </span>
                   </div>
                   <a
-                    href="#"
+                    href="https://react-la.onrender.com/"
                     className="text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 inline-flex items-center"
                   >
                     View Project
@@ -604,53 +608,14 @@ export default function Home() {
             <RevealCard>
               <div className="bg-zinc-50 dark:bg-zinc-900 rounded-lg overflow-hidden shadow-md dark:shadow-none">
                 <div className="relative h-48">
-                  <Image src="/placeholder.svg?height=400&width=600" alt="Project 2" fill className="object-cover" />
+                  <Image src="/PortFolio.png" alt="Project 2" fill className="object-cover" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Music Streaming App</h3>
+                  <h3 className="text-xl font-bold mb-2">Personal Portfolio</h3>
                   <p className="text-zinc-700 dark:text-gray-300 mb-4">
-                    A web application for streaming music, featuring playlists, artist profiles, and personalized
-                    recommendations.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      React
-                    </span>
-                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      Node.js
-                    </span>
-                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      MongoDB
-                    </span>
-                  </div>
-                  <a
-                    href="#"
-                    className="text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 inline-flex items-center"
-                  >
-                    View Project
-                    <svg
-                      className="w-4 h-4 ml-2"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </RevealCard>
-
-            <RevealCard>
-              <div className="bg-zinc-50 dark:bg-zinc-900 rounded-lg overflow-hidden shadow-md dark:shadow-none">
-                <div className="relative h-48">
-                  <Image src="/placeholder.svg?height=400&width=600" alt="Project 3" fill className="object-cover" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Travel Blog</h3>
-                  <p className="text-zinc-700 dark:text-gray-300 mb-4">
-                    A personal travel blog showcasing destinations, photos, and travel tips from around the world.
+                    A modern and responsive developer portfolio that highlights my background,
+                    technical skills, and past projects. Features smooth scrolling and intuitive
+                    layout across multiple sections.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
@@ -658,9 +623,6 @@ export default function Home() {
                     </span>
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
                       Tailwind
-                    </span>
-                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
-                      Sanity CMS
                     </span>
                   </div>
                   <a
@@ -685,7 +647,7 @@ export default function Home() {
 
           <div className="mt-12 text-center">
             <a
-              href="#"
+              href="https://github.com/TinnTinnn"
               className="inline-flex items-center justify-center px-6 py-3 border border-purple-600 rounded-full text-purple-600 dark:text-purple-400 hover:bg-purple-600/10 dark:hover:bg-purple-600/20 transition-colors"
             >
               View All Projects
