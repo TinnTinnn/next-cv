@@ -135,7 +135,8 @@ export default function Home() {
           </div>
           <div className="mt-12 flex justify-center space-x-6">
             <a
-              href="#"
+              href="/TinnResume22.4.25.pdf"
+              download
               className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full transition-colors"
             >
               Download CV
