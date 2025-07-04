@@ -625,6 +625,9 @@ export default function Home() {
                     <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
                       Tailwind
                     </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      ShadCN UI
+                    </span>
                   </div>
                   <a
                     href="#"
@@ -637,6 +640,54 @@ export default function Home() {
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </RevealCard>
+
+            <RevealCard>
+              <div className="bg-zinc-50 dark:bg-zinc-900 rounded-lg overflow-hidden shadow-md dark:shadow-none">
+                <div className="relative h-48">
+                  <Image src="/Inventory-pro.png" alt="Project 2" fill className="object-cover" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">Inventory Pro</h3>
+                  <p className="text-zinc-700 dark:text-gray-300 mb-4">
+                    A full-stack inventory system built with Next.js and NestJS, featuring secure authentication,
+                    role-based access (Admin/User), and product management with real-time stock tracking.
+                    Styled with Tailwind CSS and ShadCN UI for a modern, responsive interface.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      Next.js
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      Nest.js
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      Tailwind
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      ShadCN UI
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-300 rounded-full text-sm">
+                      PostgreSQL
+                    </span>
+                  </div>
+                  <a
+                      href="https://next-nest-ts-front.vercel.app/dashboard"
+                      className="text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 inline-flex items-center"
+                  >
+                    View Project
+                    <svg
+                        className="w-4 h-4 ml-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
