@@ -241,7 +241,7 @@ export default function Home() {
           </div>
             <div className="mt-20">
                 <RevealCard>
-                    <h3 className="text-3xl font-bold mb-8 text-center">My Journey in Pictures</h3>
+                    <h3 className="text-3xl font-bold mb-8 text-center">My Little Journey</h3>
                     <PhotoSlider
                         photos={[
                             {

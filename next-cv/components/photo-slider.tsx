@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
@@ -27,16 +27,39 @@ export default function PhotoSlider({
                                     }: PhotoSliderProps) {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [isHovered, setIsHovered] = useState(false)
+    const [isVisible, setIsVisible] = useState(false)
+    const sliderRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
-        if (!autoPlay || isHovered) return
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting)
+            },
+            {
+                threshold: 0.3, // Trigger when 30% of slider is visible
+            },
+        )
+
+        if (sliderRef.current) {
+            observer.observe(sliderRef.current)
+        }
+
+        return () => {
+            if (sliderRef.current) {
+                observer.unobserve(sliderRef.current)
+            }
+        }
+    }, [])
+
+    useEffect(() => {
+        if (!autoPlay || isHovered || !isVisible) return
 
         const timer = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length)
         }, interval)
 
         return () => clearInterval(timer)
-    }, [autoPlay, interval, isHovered, photos.length])
+    }, [autoPlay, interval, isHovered, isVisible, photos.length])
 
     const goToPrevious = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + photos.length) % photos.length)
@@ -52,6 +75,7 @@ export default function PhotoSlider({
 
     return (
         <div
+            ref={sliderRef}
             className={`relative w-full ${height} overflow-hidden rounded-2xl shadow-2xl group bg-zinc-100 dark:bg-zinc-900`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -116,7 +140,7 @@ export default function PhotoSlider({
             </div>
 
             {/* Progress Bar */}
-            {autoPlay && !isHovered && (
+            {autoPlay && !isHovered && isVisible && (
                 <div className="absolute top-0 left-0 right-0 h-1 bg-white/20 z-20">
                     <div
                         className="h-full bg-purple-500 transition-all duration-300"
