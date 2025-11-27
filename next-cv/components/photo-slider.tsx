@@ -22,7 +22,7 @@ export default function PhotoSlider({
                                         photos,
                                         autoPlay = true,
                                         interval = 5000,
-                                        height = "h-[600px]",
+                                        height = "h-[500px]",
                                         objectFit = "contain", // Changed default to "contain" to show full images
                                     }: PhotoSliderProps) {
     const [currentIndex, setCurrentIndex] = useState(0)
