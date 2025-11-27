@@ -255,7 +255,17 @@ export default function Home() {
                                 title: "กิ่วแม่ปาน ดอยอินทนนท์ จ.เชียงใหม่",
                             },
                             {
+                                src: "/DoiIntanont2.jpg",
+                                alt: "DoiIntanont2",
+                                title: "กิ่วแม่ปาน ดอยอินทนนท์ จ.เชียงใหม่",
+                            },
+                            {
                                 src: "/MaeKampong.jpg",
+                                alt: "Maekampong",
+                                title: "บ้านแม่กำปอง จ.เชียงใหม่",
+                            },
+                            {
+                                src: "/MaeKampong2.jpg",
                                 alt: "Maekampong",
                                 title: "บ้านแม่กำปอง จ.เชียงใหม่",
                             },
@@ -320,9 +330,29 @@ export default function Home() {
                                 title: "บ่อน้ำผุดทับลาว จ.ชัยภูมิ",
                             },
                             {
+                                src: "/MullberryCaffe.jpg",
+                                alt: "MullberryCaffe",
+                                title: "MullberryCaffe จ.กาญจนบุรี",
+                            },
+                            {
+                                src: "/MullberryCaffe2.jpg",
+                                alt: "MullberryCaffe2",
+                                title: "MullberryCaffe จ.กาญจนบุรี",
+                            },
+                            {
                                 src: "/Phahamhod.jpg",
                                 alt: "Phahamhod",
                                 title: "ผาหำหด จ.ชัยภูมิ",
+                            },
+                            {
+                                src: "/Wadrongkun.jpg",
+                                alt: "Wadrongkun",
+                                title: "วัดร่องขุ่น จ.เชียงราย",
+                            },
+                            {
+                                src: "/Northsud.jpg",
+                                alt: "Northsud",
+                                title: "เหนือสุดแดนสยาม จ.เชียงราย",
                             },
                             {
                                 src: "/Maehongsorn.jpg",
@@ -343,6 +373,11 @@ export default function Home() {
                                 src: "/Prajeen.jpg",
                                 alt: "Prajeen",
                                 title: "น้ำตกสาวน้อย จ.ปราจีนบุรี",
+                            },
+                            {
+                                src: "/Phahinsorn.jpg",
+                                alt: "Phahinsorn",
+                                title: "ผาหินซ้อน จ.ปราจีนบุรี",
                             },
                             {
                                 src: "/Kaowongprajan.jpg",
