@@ -12,6 +12,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { Badge } from "@/components/ui/badge"
 import { Github, Mail, MapPin, Phone, Calendar, Briefcase, GraduationCap } from "lucide-react"
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
+import PhotoSlider from "@/components/photo-slider";
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0)
@@ -238,8 +239,137 @@ export default function Home() {
               </div>
             </RevealCard>
           </div>
+            <div className="mt-20">
+                <RevealCard>
+                    <h3 className="text-3xl font-bold mb-8 text-center">My Journey in Pictures</h3>
+                    <PhotoSlider
+                        photos={[
+                            {
+                                src: "/Chillme.jpg",
+                                alt: "Chill me",
+                                title: "สะพานข้ามทางรถไฟ จ.ปราจีนบุรี",
+                            },
+                            {
+                                src: "/DoiIntanont.jpg",
+                                alt: "DoiIntanont",
+                                title: "กิ่วแม่ปาน ดอยอินทนนท์ จ.เชียงใหม่",
+                            },
+                            {
+                                src: "/MaeKampong.jpg",
+                                alt: "Maekampong",
+                                title: "บ้านแม่กำปอง จ.เชียงใหม่",
+                            },
+                            {
+                                src: "/DoiPahtang.jpg",
+                                alt: "DoiPahtang",
+                                title: "ดอยผาตั้ง จ.เชียงราย",
+                            },
+                            {
+                                src: "/Raicha101.jpg",
+                                alt: "Chuifong Tea",
+                                title: "ไร่ชาฉุยฟง จ.เชียงราย",
+                            },
+                            {
+                                src: "/Phahee.jpg",
+                                alt: "Phahee",
+                                title: "ผาฮี้ จ.เชียงราย",
+                            },
+                            {
+                                src: "/Phaheee.jpg",
+                                alt: "Phahee",
+                                title: "ผาฮี้ จ.เชียงราย",
+                            },
+                            {
+                                src: "/WatPhaSornKaew.jpg",
+                                alt: "WatPhathartphasornkeaw",
+                                title: "วัดผาซ่อนแก้ว จ.เพชรบูรณ์",
+                            },
+                            {
+                                src: "/Konglek3.jpg",
+                                alt: "KongLek3",
+                                title: "โค้งเลข 3 จ.น่าน",
+                            },
+                            {
+                                src: "/HinMoh.jpg",
+                                alt: "MohHinkaw",
+                                title: "มอหินขาว จ.ชัยภูมิ",
+                            },
+                            {
+                                src: "/Hinsamwan.jpg",
+                                alt: "Hinsamwan",
+                                title: "หินสามวาฬ จ.บึงกาฬ",
+                            },
+                            {
+                                src: "/Phutok.jpg",
+                                alt: "Phutok",
+                                title: "ภูทอก จ.บึงกาฬ",
+                            },
+                            {
+                                src: "/EsanNorth.jpg",
+                                alt: "EsanNorth",
+                                title: "ป้ายสุดเขตอีสานเหนือ จ.บึงกาฬ",
+                            },
+                            {
+                                src: "/Dokkrajeaw.jpg",
+                                alt: "Dokkrajeaw",
+                                title: "ทุ่งดอกกระเจียว อุทธยานแห่งชาติไทรทอง จ.ชัยภูมิ",
+                            },
+                            {
+                                src: "/BohnamphudTablaw.jpg",
+                                alt: "BohnamphudTablaw",
+                                title: "บ่อน้ำผุดทับลาว จ.ชัยภูมิ",
+                            },
+                            {
+                                src: "/Phahamhod.jpg",
+                                alt: "Phahamhod",
+                                title: "ผาหำหด จ.ชัยภูมิ",
+                            },
+                            {
+                                src: "/Maehongsorn.jpg",
+                                alt: "Maehongsorn",
+                                title: "ป้ายผู้พิชิต 1864 โค้ง จ.แม่ฮ่องสอน",
+                            },
+                            {
+                                src: "/HuayMaekamin.jpg",
+                                alt: "HuayMaekamin",
+                                title: "น้ำตกห้วยแม่ขมิ้น จ.กาญจนบุรี",
+                            },
+                            {
+                                src: "/samednangshe.jpg",
+                                alt: "samednangshe",
+                                title: "เสม็ดนางชี จ.พังงา",
+                            },
+                            {
+                                src: "/Prajeen.jpg",
+                                alt: "Prajeen",
+                                title: "น้ำตกสาวน้อย จ.ปราจีนบุรี",
+                            },
+                            {
+                                src: "/Kaowongprajan.jpg",
+                                alt: "Kaowongprajan",
+                                title: "บันได 3790 ขั้น เขาวงพระจันทร์ จ.ลพบุรี",
+                            },
+                            {
+                                src: "/Prajaob.jpg",
+                                alt: "Prajaob",
+                                title: "อ่าวมะนาว จ.ประจวบคีรีขันธ์",
+                            },
+                            {
+                                src: "/Samui.jpg",
+                                alt: "Samui",
+                                title: "เกาะสมุย จ.สุราษฎร์ธานี",
+                            },
+                        ]}
+                        autoPlay={true}
+                        interval={5000}
+                    />
+                </RevealCard>
+            </div>
         </div>
       </section>
+
+
+
 
       {/* Skills & Stats Section */}
       <section id="skills" className="py-20 bg-white dark:bg-black" ref={statsRef}>
